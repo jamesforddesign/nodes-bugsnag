@@ -25,8 +25,8 @@
         }
     ],
     "require": {
-        "laravel/framework": ">=5.1.0 <6.15.0",
-        "nodes/core": "^1.1",
+        "laravel/framework": "^9.0",
+        "nodes/core": "dev-php-8-1",
         "bugsnag/bugsnag": "^3.4",
         "bugsnag/bugsnag-psr-logger": "^1.1",
         "bugsnag/bugsnag-laravel": "^2.0"
@@ -38,5 +38,9 @@
         "files": [
             "src/Support/Helpers/Report.php"
         ]
-    }
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/jamesforddesign/core"
+    }]
 }
